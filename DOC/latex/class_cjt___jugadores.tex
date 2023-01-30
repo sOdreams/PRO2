@@ -1,0 +1,192 @@
+\hypertarget{class_cjt___jugadores}{}\doxysection{Referencia de la Clase Cjt\+\_\+\+Jugadores}
+\label{class_cjt___jugadores}\index{Cjt\_Jugadores@{Cjt\_Jugadores}}
+
+
+Representa las caracteristicas de un conjunto de jugadores.  
+
+
+\doxysubsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_cjt___jugadores_a2e7a3bb35253088c8b66d6cfbc89742f}{Cjt\+\_\+\+Jugadores}} ()
+\begin{DoxyCompactList}\small\item\em Creadora por defecto. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_cjt___jugadores_afb1c55675284a252eb308a0be45bb2ca}{nuevo\+\_\+jugador}} (const \mbox{\hyperlink{class_jugador}{Jugador}} \&p)
+\begin{DoxyCompactList}\small\item\em Modificadora de los atributos. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_cjt___jugadores_afb5a6e64d5ea77571c7f71e04dc75494}{eliminar\+\_\+jugador}} (string id)
+\begin{DoxyCompactList}\small\item\em Modificadora de los atributos. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_cjt___jugadores_a02fe55b5dc0afca9dc39784966cd990a}{consultar\+\_\+mida}} ()
+\begin{DoxyCompactList}\small\item\em Consultora del los jugadores totales. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_cjt___jugadores_ab42cbfab2ae621f33d16f9a8477642e0}{existe\+\_\+jugador}} (string id)
+\begin{DoxyCompactList}\small\item\em Consultora la existencia de un jugador con identificador id. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_cjt___jugadores_aa2811c7bb778f753bda31c3fba787a6c}{consultar\+\_\+jugador}} (string id)
+\begin{DoxyCompactList}\small\item\em Consultora los datos jugador con identificador id. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_cjt___jugadores_a57a7926f9e92ff0afe50a515b3a771f1}{escribir\+\_\+jugadores}} ()
+\begin{DoxyCompactList}\small\item\em Operación de escritura. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_cjt___jugadores_acfc226d4fd48656f7fe052f7b6a114f3}{escribir\+\_\+ranking}} ()
+\begin{DoxyCompactList}\small\item\em Operación de escritura. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_cjt___jugadores_a139569bc07add7899f34a8b02eaa19ea}{leer\+\_\+jugadores}} ()
+\begin{DoxyCompactList}\small\item\em Operación de lectura. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Descripción detallada}
+Representa las caracteristicas de un conjunto de jugadores. 
+
+Todas las operaciones son de {\bfseries{coste constante}} 
+
+Definición en la línea 23 del archivo Cjt\+\_\+\+Jugadores.\+hh.
+
+
+
+\doxysubsection{Documentación del constructor y destructor}
+\mbox{\Hypertarget{class_cjt___jugadores_a2e7a3bb35253088c8b66d6cfbc89742f}\label{class_cjt___jugadores_a2e7a3bb35253088c8b66d6cfbc89742f}} 
+\index{Cjt\_Jugadores@{Cjt\_Jugadores}!Cjt\_Jugadores@{Cjt\_Jugadores}}
+\index{Cjt\_Jugadores@{Cjt\_Jugadores}!Cjt\_Jugadores@{Cjt\_Jugadores}}
+\doxysubsubsection{\texorpdfstring{Cjt\_Jugadores()}{Cjt\_Jugadores()}}
+{\footnotesize\ttfamily Cjt\+\_\+\+Jugadores\+::\+Cjt\+\_\+\+Jugadores (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Creadora por defecto. 
+
+Se ejecuta automáticamente al declarar un jugador. \begin{DoxyPrecond}{Precondición}
+{\itshape cierto} 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondición}
+El resultado es un jugador con todos sus atributos inicializados a cero 
+\end{DoxyPostcond}
+
+
+\doxysubsection{Documentación de las funciones miembro}
+\mbox{\Hypertarget{class_cjt___jugadores_afb1c55675284a252eb308a0be45bb2ca}\label{class_cjt___jugadores_afb1c55675284a252eb308a0be45bb2ca}} 
+\index{Cjt\_Jugadores@{Cjt\_Jugadores}!nuevo\_jugador@{nuevo\_jugador}}
+\index{nuevo\_jugador@{nuevo\_jugador}!Cjt\_Jugadores@{Cjt\_Jugadores}}
+\doxysubsubsection{\texorpdfstring{nuevo\_jugador()}{nuevo\_jugador()}}
+{\footnotesize\ttfamily void Cjt\+\_\+\+Jugadores\+::nuevo\+\_\+jugador (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_jugador}{Jugador}} \&}]{p }\end{DoxyParamCaption})}
+
+
+
+Modificadora de los atributos. 
+
+\begin{DoxyPrecond}{Precondición}
+p no existe en el parametro implícito 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondición}
+El parámetro implícito se le añade un jugador p al vector de jugadores 
+\end{DoxyPostcond}
+\mbox{\Hypertarget{class_cjt___jugadores_afb5a6e64d5ea77571c7f71e04dc75494}\label{class_cjt___jugadores_afb5a6e64d5ea77571c7f71e04dc75494}} 
+\index{Cjt\_Jugadores@{Cjt\_Jugadores}!eliminar\_jugador@{eliminar\_jugador}}
+\index{eliminar\_jugador@{eliminar\_jugador}!Cjt\_Jugadores@{Cjt\_Jugadores}}
+\doxysubsubsection{\texorpdfstring{eliminar\_jugador()}{eliminar\_jugador()}}
+{\footnotesize\ttfamily void Cjt\+\_\+\+Jugadores\+::eliminar\+\_\+jugador (\begin{DoxyParamCaption}\item[{string}]{id }\end{DoxyParamCaption})}
+
+
+
+Modificadora de los atributos. 
+
+\begin{DoxyPrecond}{Precondición}
+p existe en el parametro implícito 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondición}
+El parámetro implícito elimina el jugador con identificador id de su vector 
+\end{DoxyPostcond}
+\mbox{\Hypertarget{class_cjt___jugadores_a02fe55b5dc0afca9dc39784966cd990a}\label{class_cjt___jugadores_a02fe55b5dc0afca9dc39784966cd990a}} 
+\index{Cjt\_Jugadores@{Cjt\_Jugadores}!consultar\_mida@{consultar\_mida}}
+\index{consultar\_mida@{consultar\_mida}!Cjt\_Jugadores@{Cjt\_Jugadores}}
+\doxysubsubsection{\texorpdfstring{consultar\_mida()}{consultar\_mida()}}
+{\footnotesize\ttfamily int Cjt\+\_\+\+Jugadores\+::consultar\+\_\+mida (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Consultora del los jugadores totales. 
+
+\begin{DoxyPrecond}{Precondición}
+{\itshape cierto} 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondición}
+El resultado es el numero de elementos del vector del parámetro implícito 
+\end{DoxyPostcond}
+\mbox{\Hypertarget{class_cjt___jugadores_ab42cbfab2ae621f33d16f9a8477642e0}\label{class_cjt___jugadores_ab42cbfab2ae621f33d16f9a8477642e0}} 
+\index{Cjt\_Jugadores@{Cjt\_Jugadores}!existe\_jugador@{existe\_jugador}}
+\index{existe\_jugador@{existe\_jugador}!Cjt\_Jugadores@{Cjt\_Jugadores}}
+\doxysubsubsection{\texorpdfstring{existe\_jugador()}{existe\_jugador()}}
+{\footnotesize\ttfamily bool Cjt\+\_\+\+Jugadores\+::existe\+\_\+jugador (\begin{DoxyParamCaption}\item[{string}]{id }\end{DoxyParamCaption})}
+
+
+
+Consultora la existencia de un jugador con identificador id. 
+
+\begin{DoxyPrecond}{Precondición}
+{\itshape cierto} 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondición}
+El resultado es true si existe un jugador con identificador id 
+\end{DoxyPostcond}
+\mbox{\Hypertarget{class_cjt___jugadores_aa2811c7bb778f753bda31c3fba787a6c}\label{class_cjt___jugadores_aa2811c7bb778f753bda31c3fba787a6c}} 
+\index{Cjt\_Jugadores@{Cjt\_Jugadores}!consultar\_jugador@{consultar\_jugador}}
+\index{consultar\_jugador@{consultar\_jugador}!Cjt\_Jugadores@{Cjt\_Jugadores}}
+\doxysubsubsection{\texorpdfstring{consultar\_jugador()}{consultar\_jugador()}}
+{\footnotesize\ttfamily void Cjt\+\_\+\+Jugadores\+::consultar\+\_\+jugador (\begin{DoxyParamCaption}\item[{string}]{id }\end{DoxyParamCaption})}
+
+
+
+Consultora los datos jugador con identificador id. 
+
+\begin{DoxyPrecond}{Precondición}
+El jugador con identificador id existe 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondición}
+Nos devuelve los datos del jugador con identificador id por el canal de salida 
+\end{DoxyPostcond}
+\mbox{\Hypertarget{class_cjt___jugadores_a57a7926f9e92ff0afe50a515b3a771f1}\label{class_cjt___jugadores_a57a7926f9e92ff0afe50a515b3a771f1}} 
+\index{Cjt\_Jugadores@{Cjt\_Jugadores}!escribir\_jugadores@{escribir\_jugadores}}
+\index{escribir\_jugadores@{escribir\_jugadores}!Cjt\_Jugadores@{Cjt\_Jugadores}}
+\doxysubsubsection{\texorpdfstring{escribir\_jugadores()}{escribir\_jugadores()}}
+{\footnotesize\ttfamily void Cjt\+\_\+\+Jugadores\+::escribir\+\_\+jugadores (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Operación de escritura. 
+
+\begin{DoxyPrecond}{Precondición}
+{\itshape cierto} 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondición}
+Se han escrito el vector del jugadores del parametro implícito en el canal standard de salida. 
+\end{DoxyPostcond}
+\mbox{\Hypertarget{class_cjt___jugadores_acfc226d4fd48656f7fe052f7b6a114f3}\label{class_cjt___jugadores_acfc226d4fd48656f7fe052f7b6a114f3}} 
+\index{Cjt\_Jugadores@{Cjt\_Jugadores}!escribir\_ranking@{escribir\_ranking}}
+\index{escribir\_ranking@{escribir\_ranking}!Cjt\_Jugadores@{Cjt\_Jugadores}}
+\doxysubsubsection{\texorpdfstring{escribir\_ranking()}{escribir\_ranking()}}
+{\footnotesize\ttfamily void Cjt\+\_\+\+Jugadores\+::escribir\+\_\+ranking (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Operación de escritura. 
+
+\begin{DoxyPrecond}{Precondición}
+{\itshape cierto} 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondición}
+Se han escrito el vector que representa el ranking del parametro implícito en el canal standard de salida. 
+\end{DoxyPostcond}
+\mbox{\Hypertarget{class_cjt___jugadores_a139569bc07add7899f34a8b02eaa19ea}\label{class_cjt___jugadores_a139569bc07add7899f34a8b02eaa19ea}} 
+\index{Cjt\_Jugadores@{Cjt\_Jugadores}!leer\_jugadores@{leer\_jugadores}}
+\index{leer\_jugadores@{leer\_jugadores}!Cjt\_Jugadores@{Cjt\_Jugadores}}
+\doxysubsubsection{\texorpdfstring{leer\_jugadores()}{leer\_jugadores()}}
+{\footnotesize\ttfamily void Cjt\+\_\+\+Jugadores\+::leer\+\_\+jugadores (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Operación de lectura. 
+
+\begin{DoxyPrecond}{Precondición}
+{\itshape cierto} 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondición}
+Se han inicializado/rellenado el parametro implícito 
+\end{DoxyPostcond}
+
+
+La documentación para esta clase fue generada a partir del siguiente fichero\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_cjt___jugadores_8hh}{Cjt\+\_\+\+Jugadores.\+hh}}\end{DoxyCompactItemize}

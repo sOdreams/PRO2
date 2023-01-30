@@ -1,0 +1,213 @@
+\hypertarget{class_cjt___torneos}{}\doxysection{Referencia de la Clase Cjt\+\_\+\+Torneos}
+\label{class_cjt___torneos}\index{Cjt\_Torneos@{Cjt\_Torneos}}
+
+
+Representa las caracteristicas de un conjunto de torneos.  
+
+
+\doxysubsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_cjt___torneos_a3da93ce7730f6472ab958496f4af3ec1}{Cjt\+\_\+\+Torneos}} ()
+\begin{DoxyCompactList}\small\item\em Creadora por defecto. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_cjt___torneos_a3bbba3261e27aa92487682c278f2d4ad}{nuevo\+\_\+torneo}} (const \mbox{\hyperlink{class_torneo}{Torneo}} \&tor)
+\begin{DoxyCompactList}\small\item\em Modificadora de los atributos. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_cjt___torneos_a6a4e67e2ef3c90cac6e0ed32db72f9b8}{iniciar\+\_\+torneos}} (string t, int n)
+\begin{DoxyCompactList}\small\item\em Modificadora/\+Inicializadora. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_cjt___torneos_a5f8fe025ef8dca095b719bc1067cb480}{eliminar\+\_\+torneo}} (const string \&id)
+\begin{DoxyCompactList}\small\item\em Modificadora de los atributos. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_cjt___torneos_a044d1e331407207032ddd7caf99a3249}{existe\+\_\+torneo}} (string id)
+\begin{DoxyCompactList}\small\item\em Consultora la existencia de un torneo con nombre id. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_torneo}{Torneo}} \mbox{\hyperlink{class_cjt___torneos_ab6f99a5b83da7a2175df32de211a5127}{copiar\+\_\+torneo}} (string t)
+\begin{DoxyCompactList}\small\item\em Consultora. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_cjt___torneos_a3356d2cf1ecc71562977a50aac050bd7}{escribir\+\_\+torneos}} ()
+\begin{DoxyCompactList}\small\item\em Operación de escritura. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_cjt___torneos_aa76d443857c43b86ccd01eb3e418b07a}{cuadro\+\_\+emparejamiento}} (string id)
+\begin{DoxyCompactList}\small\item\em Operación de escritura. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_cjt___torneos_adac1d50d2bc9d574852caac3532c79a9}{leer\+\_\+torneos}} (int t)
+\begin{DoxyCompactList}\small\item\em Operación de lectura. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Métodos públicos estáticos}
+\begin{DoxyCompactItemize}
+\item 
+static int \mbox{\hyperlink{class_cjt___torneos_a4ced2075b8443809f6309d31457ad19c}{mida\+\_\+torneos}} ()
+\begin{DoxyCompactList}\small\item\em Consultora del los torneos totales. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Descripción detallada}
+Representa las caracteristicas de un conjunto de torneos. 
+
+Todas las operaciones son de {\bfseries{coste constante}} 
+
+Definición en la línea 21 del archivo Cjt\+\_\+\+Torneos.\+hh.
+
+
+
+\doxysubsection{Documentación del constructor y destructor}
+\mbox{\Hypertarget{class_cjt___torneos_a3da93ce7730f6472ab958496f4af3ec1}\label{class_cjt___torneos_a3da93ce7730f6472ab958496f4af3ec1}} 
+\index{Cjt\_Torneos@{Cjt\_Torneos}!Cjt\_Torneos@{Cjt\_Torneos}}
+\index{Cjt\_Torneos@{Cjt\_Torneos}!Cjt\_Torneos@{Cjt\_Torneos}}
+\doxysubsubsection{\texorpdfstring{Cjt\_Torneos()}{Cjt\_Torneos()}}
+{\footnotesize\ttfamily Cjt\+\_\+\+Torneos\+::\+Cjt\+\_\+\+Torneos (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Creadora por defecto. 
+
+Se ejecuta automáticamente al declarar un conjunto de torneos. \begin{DoxyPrecond}{Precondición}
+{\itshape cierto} 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondición}
+El resultado es un conjunto de torneos con torneos sin inicializar 
+\end{DoxyPostcond}
+
+
+\doxysubsection{Documentación de las funciones miembro}
+\mbox{\Hypertarget{class_cjt___torneos_a3bbba3261e27aa92487682c278f2d4ad}\label{class_cjt___torneos_a3bbba3261e27aa92487682c278f2d4ad}} 
+\index{Cjt\_Torneos@{Cjt\_Torneos}!nuevo\_torneo@{nuevo\_torneo}}
+\index{nuevo\_torneo@{nuevo\_torneo}!Cjt\_Torneos@{Cjt\_Torneos}}
+\doxysubsubsection{\texorpdfstring{nuevo\_torneo()}{nuevo\_torneo()}}
+{\footnotesize\ttfamily void Cjt\+\_\+\+Torneos\+::nuevo\+\_\+torneo (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_torneo}{Torneo}} \&}]{tor }\end{DoxyParamCaption})}
+
+
+
+Modificadora de los atributos. 
+
+\begin{DoxyPrecond}{Precondición}
+tor no existe en el parametro implícito 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondición}
+El parámetro implícito se le añade un torneo tor 
+\end{DoxyPostcond}
+\mbox{\Hypertarget{class_cjt___torneos_a6a4e67e2ef3c90cac6e0ed32db72f9b8}\label{class_cjt___torneos_a6a4e67e2ef3c90cac6e0ed32db72f9b8}} 
+\index{Cjt\_Torneos@{Cjt\_Torneos}!iniciar\_torneos@{iniciar\_torneos}}
+\index{iniciar\_torneos@{iniciar\_torneos}!Cjt\_Torneos@{Cjt\_Torneos}}
+\doxysubsubsection{\texorpdfstring{iniciar\_torneos()}{iniciar\_torneos()}}
+{\footnotesize\ttfamily void Cjt\+\_\+\+Torneos\+::iniciar\+\_\+torneos (\begin{DoxyParamCaption}\item[{string}]{t,  }\item[{int}]{n }\end{DoxyParamCaption})}
+
+
+
+Modificadora/\+Inicializadora. 
+
+\begin{DoxyPrecond}{Precondición}
+El torneo con identificador t existe en el map. n$>$= 0 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondición}
+El torneo con identificador es iniciado con n jugadores 
+\end{DoxyPostcond}
+\mbox{\Hypertarget{class_cjt___torneos_a5f8fe025ef8dca095b719bc1067cb480}\label{class_cjt___torneos_a5f8fe025ef8dca095b719bc1067cb480}} 
+\index{Cjt\_Torneos@{Cjt\_Torneos}!eliminar\_torneo@{eliminar\_torneo}}
+\index{eliminar\_torneo@{eliminar\_torneo}!Cjt\_Torneos@{Cjt\_Torneos}}
+\doxysubsubsection{\texorpdfstring{eliminar\_torneo()}{eliminar\_torneo()}}
+{\footnotesize\ttfamily void Cjt\+\_\+\+Torneos\+::eliminar\+\_\+torneo (\begin{DoxyParamCaption}\item[{const string \&}]{id }\end{DoxyParamCaption})}
+
+
+
+Modificadora de los atributos. 
+
+\begin{DoxyPrecond}{Precondición}
+el \mbox{\hyperlink{class_torneo}{Torneo}} con nombre id existe en el parametro implícito 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondición}
+el torneo con nombre id es eliminado del parametro implicito 
+\end{DoxyPostcond}
+\mbox{\Hypertarget{class_cjt___torneos_a4ced2075b8443809f6309d31457ad19c}\label{class_cjt___torneos_a4ced2075b8443809f6309d31457ad19c}} 
+\index{Cjt\_Torneos@{Cjt\_Torneos}!mida\_torneos@{mida\_torneos}}
+\index{mida\_torneos@{mida\_torneos}!Cjt\_Torneos@{Cjt\_Torneos}}
+\doxysubsubsection{\texorpdfstring{mida\_torneos()}{mida\_torneos()}}
+{\footnotesize\ttfamily static int Cjt\+\_\+\+Torneos\+::mida\+\_\+torneos (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Consultora del los torneos totales. 
+
+\begin{DoxyPrecond}{Precondición}
+{\itshape cierto} 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondición}
+El resultado es el numero de elementos del mapa del parametro implicito 
+\end{DoxyPostcond}
+\mbox{\Hypertarget{class_cjt___torneos_a044d1e331407207032ddd7caf99a3249}\label{class_cjt___torneos_a044d1e331407207032ddd7caf99a3249}} 
+\index{Cjt\_Torneos@{Cjt\_Torneos}!existe\_torneo@{existe\_torneo}}
+\index{existe\_torneo@{existe\_torneo}!Cjt\_Torneos@{Cjt\_Torneos}}
+\doxysubsubsection{\texorpdfstring{existe\_torneo()}{existe\_torneo()}}
+{\footnotesize\ttfamily bool Cjt\+\_\+\+Torneos\+::existe\+\_\+torneo (\begin{DoxyParamCaption}\item[{string}]{id }\end{DoxyParamCaption})}
+
+
+
+Consultora la existencia de un torneo con nombre id. 
+
+\begin{DoxyPrecond}{Precondición}
+{\itshape cierto} 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondición}
+El resultado es true si existe un torneo de nombre id 
+\end{DoxyPostcond}
+\mbox{\Hypertarget{class_cjt___torneos_ab6f99a5b83da7a2175df32de211a5127}\label{class_cjt___torneos_ab6f99a5b83da7a2175df32de211a5127}} 
+\index{Cjt\_Torneos@{Cjt\_Torneos}!copiar\_torneo@{copiar\_torneo}}
+\index{copiar\_torneo@{copiar\_torneo}!Cjt\_Torneos@{Cjt\_Torneos}}
+\doxysubsubsection{\texorpdfstring{copiar\_torneo()}{copiar\_torneo()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_torneo}{Torneo}} Cjt\+\_\+\+Torneos\+::copiar\+\_\+torneo (\begin{DoxyParamCaption}\item[{string}]{t }\end{DoxyParamCaption})}
+
+
+
+Consultora. 
+
+\begin{DoxyPrecond}{Precondición}
+{\itshape cierto} 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondición}
+Devuelve un \mbox{\hyperlink{class_torneo}{Torneo}} cuyo identificador es t; 
+\end{DoxyPostcond}
+\mbox{\Hypertarget{class_cjt___torneos_a3356d2cf1ecc71562977a50aac050bd7}\label{class_cjt___torneos_a3356d2cf1ecc71562977a50aac050bd7}} 
+\index{Cjt\_Torneos@{Cjt\_Torneos}!escribir\_torneos@{escribir\_torneos}}
+\index{escribir\_torneos@{escribir\_torneos}!Cjt\_Torneos@{Cjt\_Torneos}}
+\doxysubsubsection{\texorpdfstring{escribir\_torneos()}{escribir\_torneos()}}
+{\footnotesize\ttfamily void Cjt\+\_\+\+Torneos\+::escribir\+\_\+torneos (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Operación de escritura. 
+
+\begin{DoxyPrecond}{Precondición}
+{\itshape cierto} 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondición}
+Se han escrito el map del torneos del parametro implícito en el canal standard de salida. 
+\end{DoxyPostcond}
+\mbox{\Hypertarget{class_cjt___torneos_aa76d443857c43b86ccd01eb3e418b07a}\label{class_cjt___torneos_aa76d443857c43b86ccd01eb3e418b07a}} 
+\index{Cjt\_Torneos@{Cjt\_Torneos}!cuadro\_emparejamiento@{cuadro\_emparejamiento}}
+\index{cuadro\_emparejamiento@{cuadro\_emparejamiento}!Cjt\_Torneos@{Cjt\_Torneos}}
+\doxysubsubsection{\texorpdfstring{cuadro\_emparejamiento()}{cuadro\_emparejamiento()}}
+{\footnotesize\ttfamily void Cjt\+\_\+\+Torneos\+::cuadro\+\_\+emparejamiento (\begin{DoxyParamCaption}\item[{string}]{id }\end{DoxyParamCaption})}
+
+
+
+Operación de escritura. 
+
+\begin{DoxyPrecond}{Precondición}
+{\itshape cierto} 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondición}
+Se ha inicializado el cuadro de emparejamiento del \mbox{\hyperlink{class_torneo}{Torneo}} con identificador id 
+\end{DoxyPostcond}
+\mbox{\Hypertarget{class_cjt___torneos_adac1d50d2bc9d574852caac3532c79a9}\label{class_cjt___torneos_adac1d50d2bc9d574852caac3532c79a9}} 
+\index{Cjt\_Torneos@{Cjt\_Torneos}!leer\_torneos@{leer\_torneos}}
+\index{leer\_torneos@{leer\_torneos}!Cjt\_Torneos@{Cjt\_Torneos}}
+\doxysubsubsection{\texorpdfstring{leer\_torneos()}{leer\_torneos()}}
+{\footnotesize\ttfamily void Cjt\+\_\+\+Torneos\+::leer\+\_\+torneos (\begin{DoxyParamCaption}\item[{int}]{t }\end{DoxyParamCaption})}
+
+
+
+Operación de lectura. 
+
+\begin{DoxyPrecond}{Precondición}
+{\itshape cierto} t $>$= 0 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondición}
+Se ha inicializado el mapa del parametro implicito con exactamente t elementos 
+\end{DoxyPostcond}
+
+
+La documentación para esta clase fue generada a partir del siguiente fichero\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_cjt___torneos_8hh}{Cjt\+\_\+\+Torneos.\+hh}}\end{DoxyCompactItemize}

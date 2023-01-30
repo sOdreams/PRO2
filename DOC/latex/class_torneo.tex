@@ -1,0 +1,294 @@
+\hypertarget{class_torneo}{}\doxysection{Referencia de la Clase Torneo}
+\label{class_torneo}\index{Torneo@{Torneo}}
+
+
+Representa las caracteristicas de un torneo.  
+
+
+\doxysubsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_torneo_a7bf6d35a7ec8d0e13a0bed8deb8add3e}{Torneo}} ()
+\begin{DoxyCompactList}\small\item\em Creadora por defecto. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_torneo_a203e2b3ea4ed8d6a9dc332cdf960e1c9}{Torneo}} (string nom, int cat)
+\begin{DoxyCompactList}\small\item\em Creadora con valores concretos. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_torneo_a1786fa335e82c968a1b7bdc64a9abe50}{consul\+\_\+id\+\_\+torneo}} () const
+\begin{DoxyCompactList}\small\item\em Consultora del nombre. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_torneo_a655184ad639782f718aa2bbcf84da89b}{consul\+\_\+cat}} () const
+\begin{DoxyCompactList}\small\item\em Consultora de la categoria. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_cjt___jugadores}{Cjt\+\_\+\+Jugadores}} \mbox{\hyperlink{class_torneo_a3e890b22a3143d7837beece031cecec8}{pasar\+\_\+jugadores}} ()
+\begin{DoxyCompactList}\small\item\em Consultora. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_torneo_a1c0be1c06c93485645a0cd09dcbf5f68}{actualizar\+\_\+emparejamiento}} (string g, string p)
+\begin{DoxyCompactList}\small\item\em Modificadora de los atributos. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_torneo_a53eccfb2e90dba57cbedc166bacf7473}{actualizar\+\_\+edicion}} ()
+\begin{DoxyCompactList}\small\item\em Modificadora de los atributos. Solo usamos el campo de tipo map de los atributos, cuando haya un iniciar\+\_\+torneo con el mismo nombre que el torneo actual. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_torneo_a707404ed7bad1cb5ec336aaa7ea2419c}{examinar\+\_\+partido}} (string res, string a, string b)
+\begin{DoxyCompactList}\small\item\em Modificadora. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_torneo_a30105869851fc5c66c391cb0493b9776}{analizar\+\_\+resultados}} (\mbox{\hyperlink{class_bin_tree}{Bin\+Tree}}$<$ string $>$ res)
+\begin{DoxyCompactList}\small\item\em Modificadora. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_torneo_a3aac9173eb2f402b1f08e39c9cb8e70b}{acaba\+\_\+torneo}} ()
+\begin{DoxyCompactList}\small\item\em Modificadora de los atributos. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_torneo_ac1a6ccb4f64f2aadd269775a3549f5ef}{actualizar\+\_\+puntos\+\_\+torneo}} ()
+\begin{DoxyCompactList}\small\item\em Modificadora del puntuaje de los jugadores. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_torneo_a65f5d9c94f85c136f2d096a172a82abe}{iniciar\+\_\+torneo}} (int n)
+\begin{DoxyCompactList}\small\item\em Operación de lectura. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_torneo_a89f83c0e140d49c9810f22984f85e060}{muestra\+\_\+final}} ()
+\begin{DoxyCompactList}\small\item\em Operación de escritura. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_torneo_a9a31b565e28326d9287d854815018bfb}{cuadro\+\_\+inicial}} ()
+\begin{DoxyCompactList}\small\item\em Operación de escritura. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Descripción detallada}
+Representa las caracteristicas de un torneo. 
+
+Todas las operaciones son de {\bfseries{coste constante}} 
+
+Definición en la línea 23 del archivo Torneo.\+hh.
+
+
+
+\doxysubsection{Documentación del constructor y destructor}
+\mbox{\Hypertarget{class_torneo_a7bf6d35a7ec8d0e13a0bed8deb8add3e}\label{class_torneo_a7bf6d35a7ec8d0e13a0bed8deb8add3e}} 
+\index{Torneo@{Torneo}!Torneo@{Torneo}}
+\index{Torneo@{Torneo}!Torneo@{Torneo}}
+\doxysubsubsection{\texorpdfstring{Torneo()}{Torneo()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Torneo\+::\+Torneo (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Creadora por defecto. 
+
+Se ejecuta automáticamente al declarar un torneo. \begin{DoxyPrecond}{Precondición}
+{\itshape cierto} 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondición}
+El resultado es un torneo con todos sus atributos inicializados a cero 
+\end{DoxyPostcond}
+\mbox{\Hypertarget{class_torneo_a203e2b3ea4ed8d6a9dc332cdf960e1c9}\label{class_torneo_a203e2b3ea4ed8d6a9dc332cdf960e1c9}} 
+\index{Torneo@{Torneo}!Torneo@{Torneo}}
+\index{Torneo@{Torneo}!Torneo@{Torneo}}
+\doxysubsubsection{\texorpdfstring{Torneo()}{Torneo()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Torneo\+::\+Torneo (\begin{DoxyParamCaption}\item[{string}]{nom,  }\item[{int}]{cat }\end{DoxyParamCaption})}
+
+
+
+Creadora con valores concretos. 
+
+\begin{DoxyPrecond}{Precondición}
+{\itshape cierto} 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondición}
+El resultado es un \mbox{\hyperlink{class_torneo}{Torneo}} con nombre nom y categoria cat. 
+\end{DoxyPostcond}
+
+
+\doxysubsection{Documentación de las funciones miembro}
+\mbox{\Hypertarget{class_torneo_a1786fa335e82c968a1b7bdc64a9abe50}\label{class_torneo_a1786fa335e82c968a1b7bdc64a9abe50}} 
+\index{Torneo@{Torneo}!consul\_id\_torneo@{consul\_id\_torneo}}
+\index{consul\_id\_torneo@{consul\_id\_torneo}!Torneo@{Torneo}}
+\doxysubsubsection{\texorpdfstring{consul\_id\_torneo()}{consul\_id\_torneo()}}
+{\footnotesize\ttfamily string Torneo\+::consul\+\_\+id\+\_\+torneo (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Consultora del nombre. 
+
+\begin{DoxyPrecond}{Precondición}
+{\itshape cierto} 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondición}
+El resultado es el nombre del torneo 
+\end{DoxyPostcond}
+\mbox{\Hypertarget{class_torneo_a655184ad639782f718aa2bbcf84da89b}\label{class_torneo_a655184ad639782f718aa2bbcf84da89b}} 
+\index{Torneo@{Torneo}!consul\_cat@{consul\_cat}}
+\index{consul\_cat@{consul\_cat}!Torneo@{Torneo}}
+\doxysubsubsection{\texorpdfstring{consul\_cat()}{consul\_cat()}}
+{\footnotesize\ttfamily int Torneo\+::consul\+\_\+cat (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Consultora de la categoria. 
+
+\begin{DoxyPrecond}{Precondición}
+{\itshape cierto} 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondición}
+El resultado es la categoria del torneo 
+\end{DoxyPostcond}
+\mbox{\Hypertarget{class_torneo_a3e890b22a3143d7837beece031cecec8}\label{class_torneo_a3e890b22a3143d7837beece031cecec8}} 
+\index{Torneo@{Torneo}!pasar\_jugadores@{pasar\_jugadores}}
+\index{pasar\_jugadores@{pasar\_jugadores}!Torneo@{Torneo}}
+\doxysubsubsection{\texorpdfstring{pasar\_jugadores()}{pasar\_jugadores()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_cjt___jugadores}{Cjt\+\_\+\+Jugadores}} Torneo\+::pasar\+\_\+jugadores (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Consultora. 
+
+\begin{DoxyPrecond}{Precondición}
+{\itshape cierto} 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondición}
+Devuelve el conjunto de jugadores del \mbox{\hyperlink{class_torneo}{Torneo}}. 
+\end{DoxyPostcond}
+\mbox{\Hypertarget{class_torneo_a1c0be1c06c93485645a0cd09dcbf5f68}\label{class_torneo_a1c0be1c06c93485645a0cd09dcbf5f68}} 
+\index{Torneo@{Torneo}!actualizar\_emparejamiento@{actualizar\_emparejamiento}}
+\index{actualizar\_emparejamiento@{actualizar\_emparejamiento}!Torneo@{Torneo}}
+\doxysubsubsection{\texorpdfstring{actualizar\_emparejamiento()}{actualizar\_emparejamiento()}}
+{\footnotesize\ttfamily void Torneo\+::actualizar\+\_\+emparejamiento (\begin{DoxyParamCaption}\item[{string}]{g,  }\item[{string}]{p }\end{DoxyParamCaption})}
+
+
+
+Modificadora de los atributos. 
+
+\begin{DoxyPrecond}{Precondición}
+{\itshape cierto} 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondición}
+Se modifica el arbol referente al emparejamiento, el jugador de identificador g, pasa a la siguente ronda 
+
+Se actualiza los datos de los jugadores con identificador g y p. 
+\end{DoxyPostcond}
+\mbox{\Hypertarget{class_torneo_a53eccfb2e90dba57cbedc166bacf7473}\label{class_torneo_a53eccfb2e90dba57cbedc166bacf7473}} 
+\index{Torneo@{Torneo}!actualizar\_edicion@{actualizar\_edicion}}
+\index{actualizar\_edicion@{actualizar\_edicion}!Torneo@{Torneo}}
+\doxysubsubsection{\texorpdfstring{actualizar\_edicion()}{actualizar\_edicion()}}
+{\footnotesize\ttfamily void Torneo\+::actualizar\+\_\+edicion (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Modificadora de los atributos. Solo usamos el campo de tipo map de los atributos, cuando haya un iniciar\+\_\+torneo con el mismo nombre que el torneo actual. 
+
+\begin{DoxyPrecond}{Precondición}
+Se inicia un torneo con el mismo nombre 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondición}
+Se guardan los puntos de cada jugador participante del torneo mas reciente y se inicia la nueva edicion del torneo. 
+\end{DoxyPostcond}
+\mbox{\Hypertarget{class_torneo_a707404ed7bad1cb5ec336aaa7ea2419c}\label{class_torneo_a707404ed7bad1cb5ec336aaa7ea2419c}} 
+\index{Torneo@{Torneo}!examinar\_partido@{examinar\_partido}}
+\index{examinar\_partido@{examinar\_partido}!Torneo@{Torneo}}
+\doxysubsubsection{\texorpdfstring{examinar\_partido()}{examinar\_partido()}}
+{\footnotesize\ttfamily void Torneo\+::examinar\+\_\+partido (\begin{DoxyParamCaption}\item[{string}]{res,  }\item[{string}]{a,  }\item[{string}]{b }\end{DoxyParamCaption})}
+
+
+
+Modificadora. 
+
+\begin{DoxyPrecond}{Precondición}
+res indica el resultado, a el jugador izquierdo y b el jugador derecho 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondición}
+Se lee los resultados de los partidos y se actualiza el arbol dependiendo del ganador y perdedor de dicho partidos 
+\end{DoxyPostcond}
+\mbox{\Hypertarget{class_torneo_a30105869851fc5c66c391cb0493b9776}\label{class_torneo_a30105869851fc5c66c391cb0493b9776}} 
+\index{Torneo@{Torneo}!analizar\_resultados@{analizar\_resultados}}
+\index{analizar\_resultados@{analizar\_resultados}!Torneo@{Torneo}}
+\doxysubsubsection{\texorpdfstring{analizar\_resultados()}{analizar\_resultados()}}
+{\footnotesize\ttfamily void Torneo\+::analizar\+\_\+resultados (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_bin_tree}{Bin\+Tree}}$<$ string $>$}]{res }\end{DoxyParamCaption})}
+
+
+
+Modificadora. 
+
+\begin{DoxyPrecond}{Precondición}
+El arbol res representa el arbol binario con los resultados finales 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondición}
+actualiza las estadisticas y ranking de cada jugador del arbol. 
+\end{DoxyPostcond}
+\mbox{\Hypertarget{class_torneo_a3aac9173eb2f402b1f08e39c9cb8e70b}\label{class_torneo_a3aac9173eb2f402b1f08e39c9cb8e70b}} 
+\index{Torneo@{Torneo}!acaba\_torneo@{acaba\_torneo}}
+\index{acaba\_torneo@{acaba\_torneo}!Torneo@{Torneo}}
+\doxysubsubsection{\texorpdfstring{acaba\_torneo()}{acaba\_torneo()}}
+{\footnotesize\ttfamily void Torneo\+::acaba\+\_\+torneo (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Modificadora de los atributos. 
+
+\begin{DoxyPrecond}{Precondición}
+{\itshape cierto} 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondición}
+Llegan datos referentes a los resultados de los partidos al finalizar el torneo. Dependiendo de los resultados 
+
+el arbol que representa los partidos ira actualizandose y los datos de los jugadores tambien. Al final llama 
+
+a la funcion muestra\+\_\+final 
+\end{DoxyPostcond}
+\mbox{\Hypertarget{class_torneo_ac1a6ccb4f64f2aadd269775a3549f5ef}\label{class_torneo_ac1a6ccb4f64f2aadd269775a3549f5ef}} 
+\index{Torneo@{Torneo}!actualizar\_puntos\_torneo@{actualizar\_puntos\_torneo}}
+\index{actualizar\_puntos\_torneo@{actualizar\_puntos\_torneo}!Torneo@{Torneo}}
+\doxysubsubsection{\texorpdfstring{actualizar\_puntos\_torneo()}{actualizar\_puntos\_torneo()}}
+{\footnotesize\ttfamily void Torneo\+::actualizar\+\_\+puntos\+\_\+torneo (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Modificadora del puntuaje de los jugadores. 
+
+\begin{DoxyPrecond}{Precondición}
+{\itshape cierto} 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondición}
+Llegan datos referentes a los resultados de los partidos al finalizar el torneo. Dependiendo de los resultados 
+
+el arbol que representa los partidos ira actualizandose y los datos de los jugadores tambien. Al final llama 
+
+a la funcion muestra\+\_\+final 
+\end{DoxyPostcond}
+\mbox{\Hypertarget{class_torneo_a65f5d9c94f85c136f2d096a172a82abe}\label{class_torneo_a65f5d9c94f85c136f2d096a172a82abe}} 
+\index{Torneo@{Torneo}!iniciar\_torneo@{iniciar\_torneo}}
+\index{iniciar\_torneo@{iniciar\_torneo}!Torneo@{Torneo}}
+\doxysubsubsection{\texorpdfstring{iniciar\_torneo()}{iniciar\_torneo()}}
+{\footnotesize\ttfamily void Torneo\+::iniciar\+\_\+torneo (\begin{DoxyParamCaption}\item[{int}]{n }\end{DoxyParamCaption})}
+
+
+
+Operación de lectura. 
+
+\begin{DoxyPrecond}{Precondición}
+{\itshape cierto} 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondición}
+Se ha inicializado el torneo con n jugadores ordenados por su ranking actual 
+
+Se guarda en el map puntos\+\_\+edicion los puntos de cada jugador de la ultima edicion del torneo 
+\end{DoxyPostcond}
+\mbox{\Hypertarget{class_torneo_a89f83c0e140d49c9810f22984f85e060}\label{class_torneo_a89f83c0e140d49c9810f22984f85e060}} 
+\index{Torneo@{Torneo}!muestra\_final@{muestra\_final}}
+\index{muestra\_final@{muestra\_final}!Torneo@{Torneo}}
+\doxysubsubsection{\texorpdfstring{muestra\_final()}{muestra\_final()}}
+{\footnotesize\ttfamily void Torneo\+::muestra\+\_\+final (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Operación de escritura. 
+
+\begin{DoxyPrecond}{Precondición}
+{\itshape cierto} 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondición}
+imprime el cuadro oficial de resultados 
+\end{DoxyPostcond}
+\mbox{\Hypertarget{class_torneo_a9a31b565e28326d9287d854815018bfb}\label{class_torneo_a9a31b565e28326d9287d854815018bfb}} 
+\index{Torneo@{Torneo}!cuadro\_inicial@{cuadro\_inicial}}
+\index{cuadro\_inicial@{cuadro\_inicial}!Torneo@{Torneo}}
+\doxysubsubsection{\texorpdfstring{cuadro\_inicial()}{cuadro\_inicial()}}
+{\footnotesize\ttfamily void Torneo\+::cuadro\+\_\+inicial (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Operación de escritura. 
+
+\begin{DoxyPrecond}{Precondición}
+{\itshape cierto} 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondición}
+imprime el cuadro de emparejamiento inicial 
+\end{DoxyPostcond}
+
+
+La documentación para esta clase fue generada a partir del siguiente fichero\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_torneo_8hh}{Torneo.\+hh}}\end{DoxyCompactItemize}

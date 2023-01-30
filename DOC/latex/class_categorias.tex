@@ -1,0 +1,136 @@
+\hypertarget{class_categorias}{}\doxysection{Referencia de la Clase Categorias}
+\label{class_categorias}\index{Categorias@{Categorias}}
+
+
+Representa las categorias con sus respectivos niveles de los torneos.  
+
+
+\doxysubsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_categorias_a9c8353e5665cf7c4f64d7165776518ac}{Categorias}} ()
+\begin{DoxyCompactList}\small\item\em Creadora por defecto. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_categorias_af011be008939119da21b41749ad66f91}{Categorias}} (int c, int k)
+\begin{DoxyCompactList}\small\item\em Creadora con valores concretos Da un tamaño al vector y a la matriz. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_categorias_afb06da25ddccebdd524d7974cb24ca84}{punts}} (int i, int j)
+\begin{DoxyCompactList}\small\item\em Consultora del valor de una posicion de la matriz. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_categorias_a6bf153a1cd0bd86fc2e35c0aaad9926b}{cat\+\_\+nom}} (int h)
+\begin{DoxyCompactList}\small\item\em Consultora del nombre de la categoria. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_categorias_abe3b6c9cf1c897b7471583ae6e943af2}{leer\+\_\+categorias}} ()
+\begin{DoxyCompactList}\small\item\em Operación de lectura. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_categorias_a7a41004de782c0d724d1fce8ef89ba86}{escribir\+\_\+categorias}} ()
+\begin{DoxyCompactList}\small\item\em Operación de escritura. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Descripción detallada}
+Representa las categorias con sus respectivos niveles de los torneos. 
+
+Definición en la línea 20 del archivo Categorias.\+hh.
+
+
+
+\doxysubsection{Documentación del constructor y destructor}
+\mbox{\Hypertarget{class_categorias_a9c8353e5665cf7c4f64d7165776518ac}\label{class_categorias_a9c8353e5665cf7c4f64d7165776518ac}} 
+\index{Categorias@{Categorias}!Categorias@{Categorias}}
+\index{Categorias@{Categorias}!Categorias@{Categorias}}
+\doxysubsubsection{\texorpdfstring{Categorias()}{Categorias()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Categorias\+::\+Categorias (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Creadora por defecto. 
+
+Se ejecuta automáticamente al declarar categorias. \begin{DoxyPrecond}{Precondición}
+{\itshape cierto} 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondición}
+El resultado es una matriz y un vector 
+\end{DoxyPostcond}
+\mbox{\Hypertarget{class_categorias_af011be008939119da21b41749ad66f91}\label{class_categorias_af011be008939119da21b41749ad66f91}} 
+\index{Categorias@{Categorias}!Categorias@{Categorias}}
+\index{Categorias@{Categorias}!Categorias@{Categorias}}
+\doxysubsubsection{\texorpdfstring{Categorias()}{Categorias()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Categorias\+::\+Categorias (\begin{DoxyParamCaption}\item[{int}]{c,  }\item[{int}]{k }\end{DoxyParamCaption})}
+
+
+
+Creadora con valores concretos Da un tamaño al vector y a la matriz. 
+
+\begin{DoxyPrecond}{Precondición}
+c $>$= 1, k $>$= 4 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondición}
+El resultado es una matriz y un vector 
+\end{DoxyPostcond}
+
+
+\doxysubsection{Documentación de las funciones miembro}
+\mbox{\Hypertarget{class_categorias_afb06da25ddccebdd524d7974cb24ca84}\label{class_categorias_afb06da25ddccebdd524d7974cb24ca84}} 
+\index{Categorias@{Categorias}!punts@{punts}}
+\index{punts@{punts}!Categorias@{Categorias}}
+\doxysubsubsection{\texorpdfstring{punts()}{punts()}}
+{\footnotesize\ttfamily int Categorias\+::punts (\begin{DoxyParamCaption}\item[{int}]{i,  }\item[{int}]{j }\end{DoxyParamCaption})}
+
+
+
+Consultora del valor de una posicion de la matriz. 
+
+\begin{DoxyPrecond}{Precondición}
+{\itshape cierto} 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondición}
+El resultado es un entero que se encuentra en la posicion i,j de la matriz 
+\end{DoxyPostcond}
+\mbox{\Hypertarget{class_categorias_a6bf153a1cd0bd86fc2e35c0aaad9926b}\label{class_categorias_a6bf153a1cd0bd86fc2e35c0aaad9926b}} 
+\index{Categorias@{Categorias}!cat\_nom@{cat\_nom}}
+\index{cat\_nom@{cat\_nom}!Categorias@{Categorias}}
+\doxysubsubsection{\texorpdfstring{cat\_nom()}{cat\_nom()}}
+{\footnotesize\ttfamily string Categorias\+::cat\+\_\+nom (\begin{DoxyParamCaption}\item[{int}]{h }\end{DoxyParamCaption})}
+
+
+
+Consultora del nombre de la categoria. 
+
+\begin{DoxyPrecond}{Precondición}
+Para todo h $>$= 1, h $<$= C 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondición}
+El resultado es un string que representa el nombre de la categoria h 
+\end{DoxyPostcond}
+\mbox{\Hypertarget{class_categorias_abe3b6c9cf1c897b7471583ae6e943af2}\label{class_categorias_abe3b6c9cf1c897b7471583ae6e943af2}} 
+\index{Categorias@{Categorias}!leer\_categorias@{leer\_categorias}}
+\index{leer\_categorias@{leer\_categorias}!Categorias@{Categorias}}
+\doxysubsubsection{\texorpdfstring{leer\_categorias()}{leer\_categorias()}}
+{\footnotesize\ttfamily void Categorias\+::leer\+\_\+categorias (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Operación de lectura. 
+
+\begin{DoxyPrecond}{Precondición}
+{\itshape cierto{\itshape  }}
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondición}
+{\itshape {\itshape  Se ha inicializado el vector y la matriz del parametro implicito }}
+\end{DoxyPostcond}
+\mbox{\Hypertarget{class_categorias_a7a41004de782c0d724d1fce8ef89ba86}\label{class_categorias_a7a41004de782c0d724d1fce8ef89ba86}} 
+\index{Categorias@{Categorias}!escribir\_categorias@{escribir\_categorias}}
+\index{escribir\_categorias@{escribir\_categorias}!Categorias@{Categorias}}
+\doxysubsubsection{\texorpdfstring{escribir\_categorias()}{escribir\_categorias()}}
+{\footnotesize\ttfamily void Categorias\+::escribir\+\_\+categorias (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Operación de escritura. 
+
+\begin{DoxyPrecond}{Precondición}
+{\itshape cierto} 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondición}
+Se ha escrito el nombre de las categorias seguido de los puntos de cada nivel de dicha categoria. 
+\end{DoxyPostcond}
+
+
+La documentación para esta clase fue generada a partir del siguiente fichero\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_categorias_8hh}{Categorias.\+hh}}\end{DoxyCompactItemize}

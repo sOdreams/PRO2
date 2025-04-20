@@ -1,14 +1,40 @@
-# PRO2
-AQUI TENEIS LA PRACTIA DE PRO2 DEL AÑO 2021-22.
-HA PASADO TODOS LOS VERDOS --> NOTA FINAL : 9
+🎾 PRO2 Tennis Tournament Manager
 
-RESUMEN:
-LA PRACTIA CONSISTE EN HACER UN PROGRAMA QUE "GESTIONE" LOS DE TENIS DE DIFERENTES TORNEOS.
-CADA JUGADOR HACE UNAS PARTIDAS (REPRESENTADOS EN STRING LOS CUALES HAY QUE PROCESAR PARA SABER EL GANADOR) Y EN BASE A ESO HAY UN RANKING.
-HAY VARIAS OPERACIONES, LAS MAS SENCILLAS SON LAS DE MOSTRAR CONTENIDOS (RANKINGS, INFO DE UN JUGADOR...), AÑADIR UN JUGADOR NUEVO (HAY QUE COMPROBAR SI YA EXISTE...)
-ELIMINAR UN JUGADOR...
+This project was developed as part of the PRO2 course (2021–2022).
+✅ Passed all test cases – Final grade: 9/10
+📝 Overview
 
-LAS OPERACIONES COMPLICADAS SERIAN INICIAR_TORNEO --> HAY QUE GENERAR UN ARBOL BINARIO (BINARY TREE) CON CIERTAS CARACTERISTICAS. 
-Y POR ULTIMO FINALIZAR_TORNEO, QUE ES LA OPERACION CLAVE --> TE PASAN UN CONJUNTO DE RESULTADOS EN FORMA DE BINARY TREE Y HAY QUE PROCESARLO --> LO CUAL IMPLICA MODIFICAR 
-CIERTA INFORMACION DE LOS JUGADORES, RANKING, TORNEOS...
+This program simulates the management of tennis tournaments. It allows you to:
 
+    Add or remove players
+
+    Display player information
+
+    Show current rankings
+
+    Process tournament matches and update results
+
+The core of the project is focused on handling match data (in string format) and determining winners to maintain an accurate and updated ranking system.
+⚙️ Key Features
+
+    Add/Remove Players: Ensures uniqueness when adding new players.
+
+    Display Info: Show rankings or individual player stats.
+
+    Start Tournament: Builds a binary tree to represent matchups with specific constraints.
+
+    End Tournament: Takes a binary tree of results, processes all matches, and updates players' data and tournament statistics accordingly.
+
+🏗️ Core Concepts
+
+    Binary tree structures for tournament brackets
+
+    String parsing to evaluate match results
+
+    Ranking updates based on match outcomes
+
+    Player and tournament data management
+
+📦 Status
+
+Fully functional – all features implemented and tested.
